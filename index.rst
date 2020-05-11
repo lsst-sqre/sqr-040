@@ -51,6 +51,16 @@
    This technote describes the EFD Aggregator, a Kafka aggregator based on the Faust Python Stream Processing library.
 
 
+Introduction
+============
+
+.. figure:: /_static/efd_aggregator.png
+   :name: EFD Aggregator
+   :target: _static/efd_aggregator.png
+
+   Components of the EFD at the LSST Data Facility (LDF) showing the Aggregator, the Replicator and other connectors to write data from Kafka into InfluxDB, PostgreSQL and Parquet.
+
+
 .. Add content here.
 .. Do not include the document title (it's automatically added from metadata.yaml).
 
